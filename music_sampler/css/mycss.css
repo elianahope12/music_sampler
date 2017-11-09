@@ -1,0 +1,58 @@
+
+background {
+  color:#fff;
+
+}
+
+#article
+{
+
+    background: #FCDCDE;
+    color: #000; /* change */
+    font-family: Calibri, Arial, sans-serif; /* keep */
+    width: 900px; /* keep */
+    padding: 40px; /* keep */
+    margin-left: 10.5%; /* keep */
+    margin-right:5%;
+    margin-top:0%;
+
+}
+
+
+a:link { color: #CBCBCB;}
+a:visited {color:#A69192 }
+a:focus {color:#FFB8B3}
+a:hover {color:#A69591 }
+a:active {color:#FCD1C6}
+
+#bieber
+{
+  padding-left:0px;
+  padding-right:0px;
+  width:900px;
+  height:380px;
+}
+
+@media (max-width:600px){
+#story{
+  width:95%;
+  padding:2%;
+}
+.covergroup{
+  padding-left:22%;
+}
+#songs{
+  padding-left:8.5%;
+}
+#bieber
+{
+  width:100%;
+}
+#article
+{
+  padding:0%;
+  margin:0%;
+  width:100%;
+}
+
+}
